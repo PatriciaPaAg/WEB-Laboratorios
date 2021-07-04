@@ -1,0 +1,70 @@
+h1 {
+    font-size: x-large;
+    text-align: center;
+    padding-top: 1%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+address {
+    font-size: 13px;
+    text-align: center;
+}
+
+footer {
+    display: block;
+    float: right;
+    text-align: right;
+}
+
+.containerPicName {
+    display: block;
+    margin-left: auto;
+    margin-bottom: auto;
+    
+}
+
+#containerPic {
+    display: block;
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+#containerPhoto {
+    display: block;
+    width: fit-content;
+    background-color:cornflowerblue;
+    padding: 4%;
+}
+
+#containerText {
+    display: block;
+    margin-left: 5%;
+    display: block;
+    float:right;
+    width: fit-content;
+    padding: 2%;
+}
+ 
+#name {
+    font-size: 22px;
+    text-align: center;
+    margin: 0%;
+    padding-bottom: 1%;
+}
+
+#cellphone {
+    text-align: center;
+    font-size: 13px;
+    margin: 0%;
+}
+
+#gitHub {
+    text-align: center;
+    font-size: 13px;
+    margin: 0%;
+}
+
+#section {
+    font-weight:bold;
+}
