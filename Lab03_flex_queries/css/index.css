@@ -1,5 +1,9 @@
-* {
+html {
   box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 body {
@@ -8,7 +12,144 @@ body {
   padding: 0;
 }
 
-.logo > img {
+.logo>img {
   width: 50px;
 }
 
+header {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+main {
+  margin: 1%;
+}
+
+p {
+  margin-top: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 2%;
+  color: honeydew;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/*Media Query for Mobiles*/
+
+@media (max-width: 767px) {
+  header {
+    flex-direction: column;
+  }
+  p {
+    text-align: center;
+  }
+  .menu {
+    display: none;
+  }
+  .navbar {
+    background-color: grey;
+  }
+  .product {
+    border: black;
+    border-width: 1px;
+    border-style: solid;
+  }
+}
+
+/*Media Query for Tablets*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  header {
+    justify-content: center;
+  }
+  p {
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+  h1 {
+    margin-left: 15%;
+  }
+  footer {
+    border-top: gainsboro;
+    border-top-style: solid;
+    border-top-width: 2px;
+  }
+  .menu {
+    display: none;
+  }
+  .navbar {
+    background-color: #565656;
+    margin-right: 2%;
+  }
+  .product {
+    border: gainsboro;
+    border-width: 2px;
+    border-radius: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: solid;
+  }
+}
+
+/*Media Query for Large screens*/
+
+@media (min-width: 1025px) {
+  header {
+    justify-content: center;
+  }
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  p {
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+  h1 {
+    margin-left: 15%;
+    margin-right: 25%;
+  }
+  footer {
+    border-top: gainsboro;
+    border-top-style: solid;
+    border-top-width: 2px;
+  }
+  .hamburger {
+    display: none;
+  }
+  .menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+    justify-content: space-around;
+  }
+  .navbar {
+    background-color: #565656;
+    margin-right: 2%;
+  }
+  .product {
+    border: gainsboro;
+    border-width: 2px;
+    border-radius: 2%;
+    width: 28%;
+    border-style: solid;
+  }
+}

@@ -8,4 +8,4 @@ Verano 2021
 - Lab 02  
 | [Part 1](https://patriciapaag.github.io/WEB-Laboratorios/Lab02_css/Part1/Lab02_Part1.html)
 | [Part 2](https://patriciapaag.github.io/WEB-Laboratorios/Lab02_css/Part2/index.html)
-- Lab 03
+- [Lab 03](https://patriciapaag.github.io/WEB-Laboratorios/Lab03_flex_queries/index.html)
