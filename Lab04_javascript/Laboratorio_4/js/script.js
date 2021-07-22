@@ -43,7 +43,7 @@ function TodoClear() {
 function TodoMark() {
     var todos = document.getElementsByName("todo");
     //console.log(todos)
-    for (var i = 0; i < todos.length; i++) {
+    for (var i = 0; i < todos.length(); i++) {
         todos[i].checked = true;
     }
     /*
@@ -57,15 +57,10 @@ function TodoMark() {
 function TodoDelete() {
     var todos = document.getElementsByName("todo");
     //console.log(todos)
-    for (let i = todos.length - 1; i >= 0; i--) {
-        let elemento = todos[i];
+    todos.forEach(elemento => {
         if (elemento.checked) {
             elemento.parentElement.remove();
         }
-    }
+    })
+
 }
-
-
-// te tqm <3 
-// yo te tqm a ti uwu
-
