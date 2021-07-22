@@ -12,4 +12,4 @@ Verano 2021
 - [Lab 04](https://patriciapaag.github.io/WEB-Laboratorios/Lab04_javascript/index.html)
 - Lab 05
 - [Lab 06](https://patriciapaag.github.io/WEB-Laboratorios/Lab06_jquery/index.html)
-- [Lab 07](https://patriciapaag.github.io/WEB-Laboratorios/Lab06_ajax_jquery/hw.html)
+- [Lab 07](https://patriciapaag.github.io/WEB-Laboratorios/Lab07_ajax_jquery/hw.html)
